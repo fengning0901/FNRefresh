@@ -14,7 +14,7 @@
     if (!callBack) {
         return;
     }
-    if (page.integerValue < 5) {
+    if (page.integerValue < 3) {
         NSMutableArray* mArray = [NSMutableArray array];
         for (int i = 0; i < 20; i++) {
             DemoModel* model = [DemoModel new];
