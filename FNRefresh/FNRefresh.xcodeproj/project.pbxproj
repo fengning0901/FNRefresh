@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A4B9A71F3C683300E807B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9A61F3C683300E807B5 /* main.m */; };
+		01A4B9AA1F3C683300E807B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9A91F3C683300E807B5 /* AppDelegate.m */; };
+		01A4B9AD1F3C683300E807B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9AC1F3C683300E807B5 /* ViewController.m */; };
+		01A4B9B01F3C683300E807B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A4B9AE1F3C683300E807B5 /* Main.storyboard */; };
+		01A4B9B21F3C683300E807B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A4B9B11F3C683300E807B5 /* Assets.xcassets */; };
+		01A4B9B51F3C683300E807B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A4B9B31F3C683300E807B5 /* LaunchScreen.storyboard */; };
+		01A4B9C01F3C683300E807B5 /* FNRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9BF1F3C683300E807B5 /* FNRefreshTests.m */; };
+		01A4B9CB1F3C683300E807B5 /* FNRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9CA1F3C683300E807B5 /* FNRefreshUITests.m */; };
+		01A4B9E21F3C894700E807B5 /* FNActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9DB1F3C894700E807B5 /* FNActivityIndicatorView.m */; };
+		01A4B9E31F3C894700E807B5 /* FNRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9DD1F3C894700E807B5 /* FNRefresh.m */; };
+		01A4B9E41F3C894700E807B5 /* FNRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9DF1F3C894700E807B5 /* FNRefreshFooter.m */; };
+		01A4B9E51F3C894700E807B5 /* FNRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9E11F3C894700E807B5 /* FNRefreshHeader.m */; };
+		01A4B9E91F3C897D00E807B5 /* FNEasingKeyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9E81F3C897D00E807B5 /* FNEasingKeyFrame.m */; };
+		01A4B9ED1F3C8A4E00E807B5 /* UIColor+FNAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9EC1F3C8A4E00E807B5 /* UIColor+FNAdd.m */; };
+		01A4B9FA1F3CA36300E807B5 /* DemoOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9F11F3CA36300E807B5 /* DemoOneViewController.m */; };
+		01A4B9FB1F3CA36300E807B5 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9F41F3CA36300E807B5 /* DemoModel.m */; };
+		01A4B9FC1F3CA36300E807B5 /* DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9F71F3CA36300E807B5 /* DemoCollectionViewCell.m */; };
+		01A4B9FD1F3CA36300E807B5 /* DemoConCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4B9F91F3CA36300E807B5 /* DemoConCollectionViewCell.m */; };
+		01A4BA051F3CA36D00E807B5 /* FNCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4BA001F3CA36D00E807B5 /* FNCollectionViewLayout.m */; };
+		01A4BA061F3CA36D00E807B5 /* FNCollectionViewReorderableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4BA021F3CA36D00E807B5 /* FNCollectionViewReorderableLayout.m */; };
+		01A4BA071F3CA36D00E807B5 /* FNLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4BA041F3CA36D00E807B5 /* FNLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01A4B9BC1F3C683300E807B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01A4B99A1F3C683300E807B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01A4B9A11F3C683300E807B5;
+			remoteInfo = FNRefresh;
+		};
+		01A4B9C71F3C683300E807B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01A4B99A1F3C683300E807B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01A4B9A11F3C683300E807B5;
+			remoteInfo = FNRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A4B9A21F3C683300E807B5 /* FNRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FNRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A4B9A61F3C683300E807B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01A4B9A81F3C683300E807B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01A4B9A91F3C683300E807B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01A4B9AB1F3C683300E807B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01A4B9AC1F3C683300E807B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01A4B9AF1F3C683300E807B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01A4B9B11F3C683300E807B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01A4B9B41F3C683300E807B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01A4B9B61F3C683300E807B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01A4B9BB1F3C683300E807B5 /* FNRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FNRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A4B9BF1F3C683300E807B5 /* FNRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNRefreshTests.m; sourceTree = "<group>"; };
+		01A4B9C11F3C683300E807B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01A4B9C61F3C683300E807B5 /* FNRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FNRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A4B9CA1F3C683300E807B5 /* FNRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNRefreshUITests.m; sourceTree = "<group>"; };
+		01A4B9CC1F3C683300E807B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01A4B9DA1F3C894700E807B5 /* FNActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNActivityIndicatorView.h; sourceTree = "<group>"; };
+		01A4B9DB1F3C894700E807B5 /* FNActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNActivityIndicatorView.m; sourceTree = "<group>"; };
+		01A4B9DC1F3C894700E807B5 /* FNRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNRefresh.h; sourceTree = "<group>"; };
+		01A4B9DD1F3C894700E807B5 /* FNRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNRefresh.m; sourceTree = "<group>"; };
+		01A4B9DE1F3C894700E807B5 /* FNRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNRefreshFooter.h; sourceTree = "<group>"; };
+		01A4B9DF1F3C894700E807B5 /* FNRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNRefreshFooter.m; sourceTree = "<group>"; };
+		01A4B9E01F3C894700E807B5 /* FNRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNRefreshHeader.h; sourceTree = "<group>"; };
+		01A4B9E11F3C894700E807B5 /* FNRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNRefreshHeader.m; sourceTree = "<group>"; };
+		01A4B9E71F3C897D00E807B5 /* FNEasingKeyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNEasingKeyFrame.h; sourceTree = "<group>"; };
+		01A4B9E81F3C897D00E807B5 /* FNEasingKeyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNEasingKeyFrame.m; sourceTree = "<group>"; };
+		01A4B9EB1F3C8A4E00E807B5 /* UIColor+FNAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FNAdd.h"; sourceTree = "<group>"; };
+		01A4B9EC1F3C8A4E00E807B5 /* UIColor+FNAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FNAdd.m"; sourceTree = "<group>"; };
+		01A4B9F01F3CA36300E807B5 /* DemoOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoOneViewController.h; sourceTree = "<group>"; };
+		01A4B9F11F3CA36300E807B5 /* DemoOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoOneViewController.m; sourceTree = "<group>"; };
+		01A4B9F31F3CA36300E807B5 /* DemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
+		01A4B9F41F3CA36300E807B5 /* DemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
+		01A4B9F61F3CA36300E807B5 /* DemoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewCell.h; sourceTree = "<group>"; };
+		01A4B9F71F3CA36300E807B5 /* DemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewCell.m; sourceTree = "<group>"; };
+		01A4B9F81F3CA36300E807B5 /* DemoConCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoConCollectionViewCell.h; sourceTree = "<group>"; };
+		01A4B9F91F3CA36300E807B5 /* DemoConCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoConCollectionViewCell.m; sourceTree = "<group>"; };
+		01A4B9FF1F3CA36D00E807B5 /* FNCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNCollectionViewLayout.h; sourceTree = "<group>"; };
+		01A4BA001F3CA36D00E807B5 /* FNCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNCollectionViewLayout.m; sourceTree = "<group>"; };
+		01A4BA011F3CA36D00E807B5 /* FNCollectionViewReorderableLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNCollectionViewReorderableLayout.h; sourceTree = "<group>"; };
+		01A4BA021F3CA36D00E807B5 /* FNCollectionViewReorderableLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNCollectionViewReorderableLayout.m; sourceTree = "<group>"; };
+		01A4BA031F3CA36D00E807B5 /* FNLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNLayout.h; sourceTree = "<group>"; };
+		01A4BA041F3CA36D00E807B5 /* FNLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01A4B99F1F3C683300E807B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A4B9B81F3C683300E807B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A4B9C31F3C683300E807B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A4B9991F3C683300E807B5 = {
+			isa = PBXGroup;
+			children = (
+				01A4B9A41F3C683300E807B5 /* FNRefresh */,
+				01A4B9BE1F3C683300E807B5 /* FNRefreshTests */,
+				01A4B9C91F3C683300E807B5 /* FNRefreshUITests */,
+				01A4B9A31F3C683300E807B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01A4B9A31F3C683300E807B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9A21F3C683300E807B5 /* FNRefresh.app */,
+				01A4B9BB1F3C683300E807B5 /* FNRefreshTests.xctest */,
+				01A4B9C61F3C683300E807B5 /* FNRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01A4B9A41F3C683300E807B5 /* FNRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9EE1F3CA34900E807B5 /* modules */,
+				01A4B9D91F3C894700E807B5 /* FNRefresh */,
+				01A4B9D81F3C892300E807B5 /* main */,
+				01A4B9A51F3C683300E807B5 /* Supporting Files */,
+			);
+			path = FNRefresh;
+			sourceTree = "<group>";
+		};
+		01A4B9A51F3C683300E807B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9A61F3C683300E807B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01A4B9BE1F3C683300E807B5 /* FNRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9BF1F3C683300E807B5 /* FNRefreshTests.m */,
+				01A4B9C11F3C683300E807B5 /* Info.plist */,
+			);
+			path = FNRefreshTests;
+			sourceTree = "<group>";
+		};
+		01A4B9C91F3C683300E807B5 /* FNRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9CA1F3C683300E807B5 /* FNRefreshUITests.m */,
+				01A4B9CC1F3C683300E807B5 /* Info.plist */,
+			);
+			path = FNRefreshUITests;
+			sourceTree = "<group>";
+		};
+		01A4B9D81F3C892300E807B5 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9A81F3C683300E807B5 /* AppDelegate.h */,
+				01A4B9A91F3C683300E807B5 /* AppDelegate.m */,
+				01A4B9AB1F3C683300E807B5 /* ViewController.h */,
+				01A4B9AC1F3C683300E807B5 /* ViewController.m */,
+				01A4B9AE1F3C683300E807B5 /* Main.storyboard */,
+				01A4B9B11F3C683300E807B5 /* Assets.xcassets */,
+				01A4B9B31F3C683300E807B5 /* LaunchScreen.storyboard */,
+				01A4B9B61F3C683300E807B5 /* Info.plist */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		01A4B9D91F3C894700E807B5 /* FNRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9EA1F3C8A0300E807B5 /* category */,
+				01A4B9E61F3C897D00E807B5 /* FNEasingKeyFrame */,
+				01A4B9DA1F3C894700E807B5 /* FNActivityIndicatorView.h */,
+				01A4B9DB1F3C894700E807B5 /* FNActivityIndicatorView.m */,
+				01A4B9DC1F3C894700E807B5 /* FNRefresh.h */,
+				01A4B9DD1F3C894700E807B5 /* FNRefresh.m */,
+				01A4B9DE1F3C894700E807B5 /* FNRefreshFooter.h */,
+				01A4B9DF1F3C894700E807B5 /* FNRefreshFooter.m */,
+				01A4B9E01F3C894700E807B5 /* FNRefreshHeader.h */,
+				01A4B9E11F3C894700E807B5 /* FNRefreshHeader.m */,
+			);
+			path = FNRefresh;
+			sourceTree = "<group>";
+		};
+		01A4B9E61F3C897D00E807B5 /* FNEasingKeyFrame */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9E71F3C897D00E807B5 /* FNEasingKeyFrame.h */,
+				01A4B9E81F3C897D00E807B5 /* FNEasingKeyFrame.m */,
+			);
+			path = FNEasingKeyFrame;
+			sourceTree = "<group>";
+		};
+		01A4B9EA1F3C8A0300E807B5 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9EB1F3C8A4E00E807B5 /* UIColor+FNAdd.h */,
+				01A4B9EC1F3C8A4E00E807B5 /* UIColor+FNAdd.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		01A4B9EE1F3CA34900E807B5 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9FE1F3CA36D00E807B5 /* FNCollectionViewLayout */,
+				01A4B9EF1F3CA36300E807B5 /* demo1 */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		01A4B9EF1F3CA36300E807B5 /* demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9F01F3CA36300E807B5 /* DemoOneViewController.h */,
+				01A4B9F11F3CA36300E807B5 /* DemoOneViewController.m */,
+				01A4B9F21F3CA36300E807B5 /* model */,
+				01A4B9F51F3CA36300E807B5 /* view */,
+			);
+			path = demo1;
+			sourceTree = "<group>";
+		};
+		01A4B9F21F3CA36300E807B5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9F31F3CA36300E807B5 /* DemoModel.h */,
+				01A4B9F41F3CA36300E807B5 /* DemoModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		01A4B9F51F3CA36300E807B5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9F61F3CA36300E807B5 /* DemoCollectionViewCell.h */,
+				01A4B9F71F3CA36300E807B5 /* DemoCollectionViewCell.m */,
+				01A4B9F81F3CA36300E807B5 /* DemoConCollectionViewCell.h */,
+				01A4B9F91F3CA36300E807B5 /* DemoConCollectionViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		01A4B9FE1F3CA36D00E807B5 /* FNCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				01A4B9FF1F3CA36D00E807B5 /* FNCollectionViewLayout.h */,
+				01A4BA001F3CA36D00E807B5 /* FNCollectionViewLayout.m */,
+				01A4BA011F3CA36D00E807B5 /* FNCollectionViewReorderableLayout.h */,
+				01A4BA021F3CA36D00E807B5 /* FNCollectionViewReorderableLayout.m */,
+				01A4BA031F3CA36D00E807B5 /* FNLayout.h */,
+				01A4BA041F3CA36D00E807B5 /* FNLayout.m */,
+			);
+			path = FNCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01A4B9A11F3C683300E807B5 /* FNRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A4B9CF1F3C683300E807B5 /* Build configuration list for PBXNativeTarget "FNRefresh" */;
+			buildPhases = (
+				01A4B99E1F3C683300E807B5 /* Sources */,
+				01A4B99F1F3C683300E807B5 /* Frameworks */,
+				01A4B9A01F3C683300E807B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FNRefresh;
+			productName = FNRefresh;
+			productReference = 01A4B9A21F3C683300E807B5 /* FNRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01A4B9BA1F3C683300E807B5 /* FNRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A4B9D21F3C683300E807B5 /* Build configuration list for PBXNativeTarget "FNRefreshTests" */;
+			buildPhases = (
+				01A4B9B71F3C683300E807B5 /* Sources */,
+				01A4B9B81F3C683300E807B5 /* Frameworks */,
+				01A4B9B91F3C683300E807B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01A4B9BD1F3C683300E807B5 /* PBXTargetDependency */,
+			);
+			name = FNRefreshTests;
+			productName = FNRefreshTests;
+			productReference = 01A4B9BB1F3C683300E807B5 /* FNRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01A4B9C51F3C683300E807B5 /* FNRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A4B9D51F3C683300E807B5 /* Build configuration list for PBXNativeTarget "FNRefreshUITests" */;
+			buildPhases = (
+				01A4B9C21F3C683300E807B5 /* Sources */,
+				01A4B9C31F3C683300E807B5 /* Frameworks */,
+				01A4B9C41F3C683300E807B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01A4B9C81F3C683300E807B5 /* PBXTargetDependency */,
+			);
+			name = FNRefreshUITests;
+			productName = FNRefreshUITests;
+			productReference = 01A4B9C61F3C683300E807B5 /* FNRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01A4B99A1F3C683300E807B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = demo;
+				TargetAttributes = {
+					01A4B9A11F3C683300E807B5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					01A4B9BA1F3C683300E807B5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01A4B9A11F3C683300E807B5;
+					};
+					01A4B9C51F3C683300E807B5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01A4B9A11F3C683300E807B5;
+					};
+				};
+			};
+			buildConfigurationList = 01A4B99D1F3C683300E807B5 /* Build configuration list for PBXProject "FNRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01A4B9991F3C683300E807B5;
+			productRefGroup = 01A4B9A31F3C683300E807B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01A4B9A11F3C683300E807B5 /* FNRefresh */,
+				01A4B9BA1F3C683300E807B5 /* FNRefreshTests */,
+				01A4B9C51F3C683300E807B5 /* FNRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01A4B9A01F3C683300E807B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A4B9B51F3C683300E807B5 /* LaunchScreen.storyboard in Resources */,
+				01A4B9B21F3C683300E807B5 /* Assets.xcassets in Resources */,
+				01A4B9B01F3C683300E807B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A4B9B91F3C683300E807B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A4B9C41F3C683300E807B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01A4B99E1F3C683300E807B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A4B9ED1F3C8A4E00E807B5 /* UIColor+FNAdd.m in Sources */,
+				01A4B9E41F3C894700E807B5 /* FNRefreshFooter.m in Sources */,
+				01A4B9FB1F3CA36300E807B5 /* DemoModel.m in Sources */,
+				01A4B9FC1F3CA36300E807B5 /* DemoCollectionViewCell.m in Sources */,
+				01A4BA061F3CA36D00E807B5 /* FNCollectionViewReorderableLayout.m in Sources */,
+				01A4B9FD1F3CA36300E807B5 /* DemoConCollectionViewCell.m in Sources */,
+				01A4B9AD1F3C683300E807B5 /* ViewController.m in Sources */,
+				01A4BA071F3CA36D00E807B5 /* FNLayout.m in Sources */,
+				01A4BA051F3CA36D00E807B5 /* FNCollectionViewLayout.m in Sources */,
+				01A4B9E31F3C894700E807B5 /* FNRefresh.m in Sources */,
+				01A4B9FA1F3CA36300E807B5 /* DemoOneViewController.m in Sources */,
+				01A4B9E21F3C894700E807B5 /* FNActivityIndicatorView.m in Sources */,
+				01A4B9E91F3C897D00E807B5 /* FNEasingKeyFrame.m in Sources */,
+				01A4B9AA1F3C683300E807B5 /* AppDelegate.m in Sources */,
+				01A4B9A71F3C683300E807B5 /* main.m in Sources */,
+				01A4B9E51F3C894700E807B5 /* FNRefreshHeader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A4B9B71F3C683300E807B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A4B9C01F3C683300E807B5 /* FNRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A4B9C21F3C683300E807B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A4B9CB1F3C683300E807B5 /* FNRefreshUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01A4B9BD1F3C683300E807B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01A4B9A11F3C683300E807B5 /* FNRefresh */;
+			targetProxy = 01A4B9BC1F3C683300E807B5 /* PBXContainerItemProxy */;
+		};
+		01A4B9C81F3C683300E807B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01A4B9A11F3C683300E807B5 /* FNRefresh */;
+			targetProxy = 01A4B9C71F3C683300E807B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01A4B9AE1F3C683300E807B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A4B9AF1F3C683300E807B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01A4B9B31F3C683300E807B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A4B9B41F3C683300E807B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01A4B9CD1F3C683300E807B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01A4B9CE1F3C683300E807B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01A4B9D01F3C683300E807B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FNRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FNRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01A4B9D11F3C683300E807B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FNRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FNRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01A4B9D31F3C683300E807B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FNRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FNRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FNRefresh.app/FNRefresh";
+			};
+			name = Debug;
+		};
+		01A4B9D41F3C683300E807B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FNRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FNRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FNRefresh.app/FNRefresh";
+			};
+			name = Release;
+		};
+		01A4B9D61F3C683300E807B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FNRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FNRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FNRefresh;
+			};
+			name = Debug;
+		};
+		01A4B9D71F3C683300E807B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FNRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FNRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FNRefresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01A4B99D1F3C683300E807B5 /* Build configuration list for PBXProject "FNRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A4B9CD1F3C683300E807B5 /* Debug */,
+				01A4B9CE1F3C683300E807B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01A4B9CF1F3C683300E807B5 /* Build configuration list for PBXNativeTarget "FNRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A4B9D01F3C683300E807B5 /* Debug */,
+				01A4B9D11F3C683300E807B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01A4B9D21F3C683300E807B5 /* Build configuration list for PBXNativeTarget "FNRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A4B9D31F3C683300E807B5 /* Debug */,
+				01A4B9D41F3C683300E807B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01A4B9D51F3C683300E807B5 /* Build configuration list for PBXNativeTarget "FNRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A4B9D61F3C683300E807B5 /* Debug */,
+				01A4B9D71F3C683300E807B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01A4B99A1F3C683300E807B5 /* Project object */;
+}
